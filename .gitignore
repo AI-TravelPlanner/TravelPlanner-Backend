@@ -34,4 +34,4 @@ build/
 
 
 # Exclude application.properties file
-/application.properties
+src\main\resources\application.properties
