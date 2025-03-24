@@ -1,0 +1,50 @@
+{
+  "tripName": "Exploring Rome",
+  "location": "Rome, Italy",
+  "startDate": "2025-06-15",
+  "numberOfPeople": 3,
+  "duration": 5,
+  "budget": 3000,
+  "tripType": "history",
+  "dailyItinery": [
+    {
+      "day": 1,
+      "activities": [
+        {
+          "name": "Visit Colosseum",
+          "time": "09:00",
+          "description": "Discover the ancient Roman amphitheater and its rich history."
+        },
+        {
+          "name": "Roman Forum Exploration",
+          "time": "13:00",
+          "description": "Walk through the ruins of the Roman Forum and learn about ancient Roman life."
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "activities": [
+        {
+          "name": "Vatican Museums Tour",
+          "time": "10:00",
+          "description": "Admire the art collections, including the Sistine Chapel and Raphael Rooms."
+        },
+        {
+          "name": "St. Peter's Basilica Visit",
+          "time": "14:30",
+          "description": "Explore the grand St. Peter's Basilica and climb to the dome for a panoramic view of Rome."
+        }
+      ]
+    }
+  ],
+  "weather": {
+    "temperature": 25,
+    "condition": "Sunny"
+  },
+  "hotelDetails": {
+    "hotelName": "Hotel Roma",
+    "location": "Via Nazionale, Rome",
+    "pricePerNight": 120
+  }
+}
