@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.travelplanner.travelplanner.model.Trip;
+import com.travelplanner.travelplanner.model.trip.Trip;
 import com.travelplanner.travelplanner.service.TripService;
 
 @RestController

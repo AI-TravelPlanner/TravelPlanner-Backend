@@ -1,4 +1,4 @@
-package com.travelplanner.travelplanner.model;
+package com.travelplanner.travelplanner.model.trip;
 
 import java.util.Date;
 import java.util.List;
