@@ -19,6 +19,9 @@ public class PlanTrip {
     // this one is to plan and show the trip to the user
     @PostMapping("/plan-trip")
     public ResponseEntity<String> planTrip(@RequestBody PlanTrip planTrip) {
+
+        
+
         return ResponseEntity.ok("Trip planned successfully");
     }
 
