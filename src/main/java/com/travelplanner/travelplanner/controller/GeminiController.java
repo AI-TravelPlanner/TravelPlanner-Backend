@@ -29,6 +29,7 @@ public class GeminiController {
     @PostMapping("/generate")
     public Mono<JsonNode> generate(@RequestBody Map<String, Object> request) {
         // Generate content, parse the response, and format it
+
         return geminiService.planTrip(request);
     }
 
