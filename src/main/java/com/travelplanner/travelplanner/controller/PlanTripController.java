@@ -23,7 +23,7 @@ public class PlanTripController {
     private TripPlanService tripPlanService;
 
     // this one is to plan and show the trip to the user
-    @PostMapping("/plan-trip/")
+    @PostMapping("/plan-trip")
     public ResponseEntity<PlanTripResponse> planTripController(@RequestBody Map<String, Object> request) {
 
         Mono<JsonNode> plannedtrip = tripPlanService.planTrip(request);
